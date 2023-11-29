@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Rajdhani:wght@300;400&family=Titillium+Web:wght@200&display=swap');
+
+
+
+
+
+/* Add this to your global or component-specific CSS */
+
+.job-details-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 80%; /* Adjust as needed */
+  max-width: 600px; /* Set a maximum width */
+  max-height: 80%; /* Set a maximum height */
+  overflow-y: auto; /* Add a scrollbar if content exceeds max height */
+  text-align: left; /* Adjust text alignment */
+}
+
+/* Add any other styles as needed */
